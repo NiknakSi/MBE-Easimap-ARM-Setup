@@ -1,0 +1,11 @@
+* text=auto
+*.cpp text
+*.h text
+*.md text
+*.txt text
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+*.props text eol=crlf
+*.cmd text eol=crlf
+*.ico binary

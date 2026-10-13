@@ -1,0 +1,22 @@
+# Visual Studio personal state and generated build files
+.vs/
+artifacts/
+**/bin/
+**/obj/
+**/build/
+!build/
+!build/Native.props
+*.user
+*.suo
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.res
+*.pdb
+*.idb
+*.ilk
+*.xdc
+*.zip
+.DS_Store

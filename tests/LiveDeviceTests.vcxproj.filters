@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{1F126ED9-20E4-4C60-84FD-1DC53D6D879E}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{9736F56A-0EC5-4A02-BB03-12CF4343F98F}</UniqueIdentifier></Filter>
+    <Filter Include="Resources"><UniqueIdentifier>{889DF795-7F43-4F62-8157-88B7923619FC}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="live-tests.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\core\resources\strings.rc"><Filter>Resources</Filter></ResourceCompile>
+  </ItemGroup>
+</Project>

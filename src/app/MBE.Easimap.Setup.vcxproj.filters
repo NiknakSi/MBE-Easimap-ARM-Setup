@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{08C4B110-8583-4693-A847-D7D4AC8A791E}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{E08A4F84-1AD7-4FA7-A4A1-5E0435D8FF61}</UniqueIdentifier></Filter>
+    <Filter Include="Resources"><UniqueIdentifier>{CF5A1F57-92C7-4799-8CFA-EC1A850473C2}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\app.rc"><Filter>Resources</Filter></ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\app.manifest"><Filter>Resources</Filter></None>
+    <None Include="resources\cog.ico"><Filter>Resources</Filter></None>
+    <None Include="resources\cog.svg"><Filter>Resources</Filter></None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\core\resources\strings.rc"><Filter>Resources</Filter></ResourceCompile>
+  </ItemGroup>
+</Project>
